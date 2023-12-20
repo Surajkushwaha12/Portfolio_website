@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=League+Spartan&family=Lora:ital,wght@1,500&family=Open+Sans:ital,wght@0,400;1,300&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=League+Spartan&family=Lora:ital,wght@1,500&family=Source+Code+Pro:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+}
+
+.slidebar {
+    background-color: rgb(206, 201, 201);
+    width: 200px;
+    font-family: Lora, serif;
+    /* height: 100vh; */
+    
+}
+.slidebar nav{
+    /* padding: 30px; */
+    margin: 0px 3px;
+}
+.slidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 20px 30px;
+    margin-top: 10px;
+}
+.slidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.slidebar nav li:hover{
+    background-color: white;
+    
+}
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    /* background-color: rgb(242, 248, 252); */
+    background-color: rgb(233, 244, 253);
+}
+.formheading{
+    width: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 30px 0; */
+    margin: 20px 0;
+    margin-right: 20px;
+}
+.formheading h1{
+    font-size: 40px;
+    /* font-family: 'League Spartan', sans-serif;  */
+    /* font-family: Lora, serif; */
+    /* font-family: 'Source Code Pro', monospace; */
+}
+.subconatainer{
+    width: auto;
+    /* height: 85vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* background-color: red; */
+
+}
+.projectbox{
+    width: 82vw;
+    height: 46vh;
+    margin: 10px 0;
+    margin-left: 20px;
+    display: flex; 
+    /* justify-content: space-around; */ 
+    /* background-color: aqua; */
+   padding-top: 10px;
+   padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 5px 5px 3px rgb(209, 204, 204), -5px -5px 3px #f7ebcd;
+    
+    /* background: #f1ecec; */
+    background: #fcfafa;
+    
+    outline: none;
+}
+
+
+.box1 img{
+    width: 35vw;
+    height: 45vh;
+    margin: 8px 30px;
+
+}
+.mainbox{
+    width: 40vw;
+    height: 45vh;
+    margin: 0 20px;
+    
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.box2 h1{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'League Spartan', sans-serif; 
+    font-family: Lora, serif; */
+}
+.box3{
+    width: 35vw;
+    margin-bottom:10px ;
+}
+.box4 h2{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+.box5{
+    padding-left: 110px;
+    margin-bottom: 20px;
+}
+.box6{
+    display: flex;
+    /* justify-content: space-around; */
+
+}
+
+button{
+    width: 12vw;
+    /* float: right; */
+    margin-right: 18px;
+    font-size: 18px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: black;
+    background-color: dodgerblue;
+    border: 0.5px solid black;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    
+    background-color: white;
+     color: dodgerblue;
+     
+ }

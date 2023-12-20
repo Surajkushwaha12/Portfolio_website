@@ -1,0 +1,99 @@
+@media screen and (max-width: 1100px) {
+    .slidebar {
+        width: 100px;
+    }
+
+    .slidebar nav {
+        /* padding: 30px; */
+        margin: 0px;
+    }
+
+    .slidebar nav li {
+        list-style: none;
+        font-size: 20px;
+        padding: 20px 10px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slidebar {
+        width: auto;
+        height: auto
+    }
+
+    .slidebar ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main {
+        width: auto;
+        height: auto;
+    }
+    .formheading h1{
+        
+        margin-left: -60px;
+    }
+    
+    .contactform {
+        width: auto;
+        height: auto;
+        /* background-color: rgb(6, 131, 240); */
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column-reverse;
+        /* justify-content: space-around; */
+    }
+
+    .divdetail {
+        width: auto;
+        height: auto;
+        /* background-color: yellow; */
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    .divmessage {
+        width: auto;
+        height: auto;
+        margin-left: 50px;
+    }
+
+    .fieldname input[type=text], .fieldemail input[type=email], .field input[type=text], .fieldtextarea textarea {
+        width: 80vw;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+
+
+    .slidebar nav li {
+
+        font-size: 15px;
+        padding: 10px 15px;
+        margin-top: 10px;
+    }
+
+}
+@media screen and (max-width: 450px) {
+
+
+    /* .fieldname input[type=text], .fieldemail input[type=email], .field input[type=text], .fieldtextarea textarea {
+        width: 50vh;
+    } */
+    .slidebar nav li {
+
+        font-size: 10px;
+        padding: 10px 7px;
+        margin-top: 10px;
+    }
+
+}
